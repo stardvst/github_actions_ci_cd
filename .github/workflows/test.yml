@@ -1,7 +1,7 @@
 name: My first Github Action
 on: [push]
 jobs:
-  build-app:
+  buildApp:
     runs-on: ubuntu-latest
     outputs:
       text: ${{ steps.finished.outputs.text }}
