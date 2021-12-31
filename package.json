@@ -1,6 +1,7 @@
 {
   "scripts": {
     "build": "snowpack build",
+    "deploy": "vc build --prod --token=EzDSwjBH8We2qzO8ApdQZxG3 --confirm",
     "start": "snowpack dev"
   },
   "dependencies": {
