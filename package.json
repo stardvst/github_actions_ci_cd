@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "build": "snowpack build",
     "start": "snowpack dev"
   },
   "dependencies": {
