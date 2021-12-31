@@ -1,7 +1,7 @@
 {
   "scripts": {
     "build": "snowpack build",
-    "deploy": "vc build --prod --token=EzDSwjBH8We2qzO8ApdQZxG3 --confirm",
+    "deploy": "vc build --prod --token=$VERCEL_TOKEN --confirm",
     "start": "snowpack dev"
   },
   "dependencies": {
