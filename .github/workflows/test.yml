@@ -21,3 +21,8 @@ jobs:
         run: yarn deploy
       - name: Setup done
         run: echo "Project build is done."
+  test-app:
+    runs-on: ubuntu-latest
+    needs: build-app
+    steps:
+      - run: echo "Testing app..."
